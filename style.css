@@ -109,6 +109,5 @@ body{
         height: 150px;
         margin-bottom: 0;
         margin-right: 10px;
-        scroll-snap-align: center;
     }
 }
