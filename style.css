@@ -19,7 +19,8 @@ body{
   overflow: scroll;
   scroll-snap-type: y mandatory;
   scroll-behavior: smooth;
-  -webkit-overflow-scrolling: touch
+  -webkit-overflow-scrolling: touch;
+  scroll-snap-stop: always;
 }
 
 .slide {
@@ -64,7 +65,8 @@ body{
   overflow-x: hidden;
   scroll-snap-type: y mandatory;
   scroll-padding: 10px;
-  -webkit-overflow-scrolling: touch
+  -webkit-overflow-scrolling: touch;
+  scroll-snap-stop: always;
 }
 
 .nav a {
